@@ -1,0 +1,588 @@
+Dependencies for Project 'template', Target 'template_Release': (DO NOT MODIFY !)
+CompilerVersion: 6160000::V6.16::ARMCLANG
+F (.\startup_hc32l13x.s)(0x5F560CC4)(--cpu Cortex-M0+ -g --pd "__MICROLIB SETA 1"-I.\RTE\_template_Release-Id:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include-Id:\Keil_mdk\HDSC\HC32L130\1.0.1\Device\Include--pd "__UVISION_VERSION SETA 535"--pd "_RTE_ SETA 1"--pd "_RTE_ SETA 1"-o .\output\release\startup_hc32l13x.o--depend .\output\release\startup_hc32l13x.d)
+F (..\..\..\mcu\common\system_hc32l13x.c)(0x5ED6424B)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../../mcu/common -I ../source -I ../../../driver/inc -I ../source/bsp -I ../source/segger_rtt-I./RTE/_template_Release-Id:/Keil_mdk/ARM/CMSIS/5.8.0/CMSIS/Core/Include-Id:/Keil_mdk/HDSC/HC32L130/1.0.1/Device/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_ -DDEBUG_PRINT-o ./output/release/system_hc32l13x.o -MD)
+I (..\..\..\mcu\common\base_types.h)(0x5D11C241)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\assert.h)(0x603507D0)
+I (..\..\..\mcu\common\hc32l13x.h)(0x5D1892E0)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (..\..\..\mcu\common\system_hc32l13x.h)(0x5ED6414F)
+I (..\..\..\driver\inc\sysctrl.h)(0x5D130324)
+I (..\..\..\driver\inc\ddl.h)(0x5D131F39)
+I (..\..\..\mcu\common\board_stkhc32l13x.h)(0x5E195D07)
+I (..\..\..\mcu\common\interrupts_hc32l13x.h)(0x5D131A91)
+I (..\source\ddl_device.h)(0x5F560CC4)
+F (..\..\..\mcu\common\interrupts_hc32l13x.c)(0x5D131C59)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../../mcu/common -I ../source -I ../../../driver/inc -I ../source/bsp -I ../source/segger_rtt-I./RTE/_template_Release-Id:/Keil_mdk/ARM/CMSIS/5.8.0/CMSIS/Core/Include-Id:/Keil_mdk/HDSC/HC32L130/1.0.1/Device/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_ -DDEBUG_PRINT-o ./output/release/interrupts_hc32l13x.o -MD)
+I (..\..\..\driver\inc\ddl.h)(0x5D131F39)
+I (..\..\..\mcu\common\base_types.h)(0x5D11C241)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\assert.h)(0x603507D0)
+I (..\..\..\mcu\common\board_stkhc32l13x.h)(0x5E195D07)
+I (..\..\..\mcu\common\hc32l13x.h)(0x5D1892E0)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (..\..\..\mcu\common\system_hc32l13x.h)(0x5ED6414F)
+I (..\..\..\driver\inc\sysctrl.h)(0x5D130324)
+I (..\..\..\mcu\common\interrupts_hc32l13x.h)(0x5D131A91)
+I (..\source\ddl_device.h)(0x5F560CC4)
+F (..\source\main.c)(0x61B4BD71)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../../mcu/common -I ../source -I ../../../driver/inc -I ../source/bsp -I ../source/segger_rtt-I./RTE/_template_Release-Id:/Keil_mdk/ARM/CMSIS/5.8.0/CMSIS/Core/Include-Id:/Keil_mdk/HDSC/HC32L130/1.0.1/Device/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_ -DDEBUG_PRINT-o ./output/release/main.o -MD)
+I (..\..\..\driver\inc\ddl.h)(0x5D131F39)
+I (..\..\..\mcu\common\base_types.h)(0x5D11C241)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\assert.h)(0x603507D0)
+I (..\..\..\mcu\common\board_stkhc32l13x.h)(0x5E195D07)
+I (..\..\..\mcu\common\hc32l13x.h)(0x5D1892E0)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (..\..\..\mcu\common\system_hc32l13x.h)(0x5ED6414F)
+I (..\..\..\driver\inc\sysctrl.h)(0x5D130324)
+I (..\..\..\mcu\common\interrupts_hc32l13x.h)(0x5D131A91)
+I (..\source\ddl_device.h)(0x5F560CC4)
+I (..\source\bsp\bsp_debug.h)(0x61A88B4E)
+I (..\..\..\driver\inc\gpio.h)(0x5D11EFDB)
+I (..\..\..\driver\inc\uart.h)(0x5D12D7E6)
+I (..\..\..\driver\inc\adt.h)(0x5D11C7E3)
+I (..\..\..\driver\inc\bt.h)(0x5F560BA9)
+I (..\..\..\driver\inc\wdt.h)(0x5D12DF57)
+I (..\..\..\driver\inc\flash.h)(0x5D142E9C)
+I (..\source\bsp\bsp_air.h)(0x61A87A3E)
+I (..\source\bsp\bsp_limiter.h)(0x61B605C5)
+I (..\source\bsp\bsp_motor.h)(0x61B605D6)
+I (..\source\bsp\bsp_msg.h)(0x61A86C95)
+I (..\source\bsp\bsp_pir.h)(0x61A9D795)
+I (..\source\bsp\bsp_timer.h)(0x61A86CA3)
+I (..\source\bsp\bsp_uv.h)(0x61A86CC9)
+I (..\source\bsp\bsp_water.h)(0x61A87B11)
+I (..\source\bsp\bsp_wifi.h)(0x61A86CC5)
+I (..\source\bsp\bsp_ctrl.h)(0x61B6078B)
+F (..\source\bsp\bsp_air.c)(0x61B3059A)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../../mcu/common -I ../source -I ../../../driver/inc -I ../source/bsp -I ../source/segger_rtt-I./RTE/_template_Release-Id:/Keil_mdk/ARM/CMSIS/5.8.0/CMSIS/Core/Include-Id:/Keil_mdk/HDSC/HC32L130/1.0.1/Device/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_ -DDEBUG_PRINT-o ./output/release/bsp_air.o -MD)
+I (..\source\bsp\bsp_air.h)(0x61A87A3E)
+I (..\source\bsp\bsp_debug.h)(0x61A88B4E)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (..\..\..\driver\inc\gpio.h)(0x5D11EFDB)
+I (..\..\..\driver\inc\ddl.h)(0x5D131F39)
+I (..\..\..\mcu\common\base_types.h)(0x5D11C241)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\assert.h)(0x603507D0)
+I (..\..\..\mcu\common\board_stkhc32l13x.h)(0x5E195D07)
+I (..\..\..\mcu\common\hc32l13x.h)(0x5D1892E0)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (..\..\..\mcu\common\system_hc32l13x.h)(0x5ED6414F)
+I (..\..\..\driver\inc\sysctrl.h)(0x5D130324)
+I (..\..\..\mcu\common\interrupts_hc32l13x.h)(0x5D131A91)
+I (..\source\ddl_device.h)(0x5F560CC4)
+I (..\..\..\driver\inc\uart.h)(0x5D12D7E6)
+I (..\..\..\driver\inc\adt.h)(0x5D11C7E3)
+I (..\..\..\driver\inc\bt.h)(0x5F560BA9)
+I (..\..\..\driver\inc\wdt.h)(0x5D12DF57)
+I (..\..\..\driver\inc\flash.h)(0x5D142E9C)
+I (..\source\bsp\bsp_limiter.h)(0x61B605C5)
+I (..\source\bsp\bsp_motor.h)(0x61B605D6)
+I (..\source\bsp\bsp_msg.h)(0x61A86C95)
+I (..\source\bsp\bsp_pir.h)(0x61A9D795)
+I (..\source\bsp\bsp_timer.h)(0x61A86CA3)
+I (..\source\bsp\bsp_uv.h)(0x61A86CC9)
+I (..\source\bsp\bsp_water.h)(0x61A87B11)
+I (..\source\bsp\bsp_wifi.h)(0x61A86CC5)
+I (..\source\bsp\bsp_ctrl.h)(0x61B6078B)
+F (..\source\bsp\bsp_ctrl.c)(0x61B60781)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../../mcu/common -I ../source -I ../../../driver/inc -I ../source/bsp -I ../source/segger_rtt-I./RTE/_template_Release-Id:/Keil_mdk/ARM/CMSIS/5.8.0/CMSIS/Core/Include-Id:/Keil_mdk/HDSC/HC32L130/1.0.1/Device/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_ -DDEBUG_PRINT-o ./output/release/bsp_ctrl.o -MD)
+I (..\source\bsp\bsp_ctrl.h)(0x61B6078B)
+I (..\source\bsp\bsp_debug.h)(0x61A88B4E)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (..\..\..\driver\inc\gpio.h)(0x5D11EFDB)
+I (..\..\..\driver\inc\ddl.h)(0x5D131F39)
+I (..\..\..\mcu\common\base_types.h)(0x5D11C241)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\assert.h)(0x603507D0)
+I (..\..\..\mcu\common\board_stkhc32l13x.h)(0x5E195D07)
+I (..\..\..\mcu\common\hc32l13x.h)(0x5D1892E0)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (..\..\..\mcu\common\system_hc32l13x.h)(0x5ED6414F)
+I (..\..\..\driver\inc\sysctrl.h)(0x5D130324)
+I (..\..\..\mcu\common\interrupts_hc32l13x.h)(0x5D131A91)
+I (..\source\ddl_device.h)(0x5F560CC4)
+I (..\..\..\driver\inc\uart.h)(0x5D12D7E6)
+I (..\..\..\driver\inc\adt.h)(0x5D11C7E3)
+I (..\..\..\driver\inc\bt.h)(0x5F560BA9)
+I (..\..\..\driver\inc\wdt.h)(0x5D12DF57)
+I (..\..\..\driver\inc\flash.h)(0x5D142E9C)
+I (..\source\bsp\bsp_air.h)(0x61A87A3E)
+I (..\source\bsp\bsp_limiter.h)(0x61B605C5)
+I (..\source\bsp\bsp_motor.h)(0x61B605D6)
+I (..\source\bsp\bsp_msg.h)(0x61A86C95)
+I (..\source\bsp\bsp_pir.h)(0x61A9D795)
+I (..\source\bsp\bsp_timer.h)(0x61A86CA3)
+I (..\source\bsp\bsp_uv.h)(0x61A86CC9)
+I (..\source\bsp\bsp_water.h)(0x61A87B11)
+I (..\source\bsp\bsp_wifi.h)(0x61A86CC5)
+F (..\source\bsp\bsp_limiter.c)(0x61B607A1)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../../mcu/common -I ../source -I ../../../driver/inc -I ../source/bsp -I ../source/segger_rtt-I./RTE/_template_Release-Id:/Keil_mdk/ARM/CMSIS/5.8.0/CMSIS/Core/Include-Id:/Keil_mdk/HDSC/HC32L130/1.0.1/Device/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_ -DDEBUG_PRINT-o ./output/release/bsp_limiter.o -MD)
+I (..\source\bsp\bsp_limiter.h)(0x61B605C5)
+I (..\source\bsp\bsp_debug.h)(0x61A88B4E)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (..\..\..\driver\inc\gpio.h)(0x5D11EFDB)
+I (..\..\..\driver\inc\ddl.h)(0x5D131F39)
+I (..\..\..\mcu\common\base_types.h)(0x5D11C241)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\assert.h)(0x603507D0)
+I (..\..\..\mcu\common\board_stkhc32l13x.h)(0x5E195D07)
+I (..\..\..\mcu\common\hc32l13x.h)(0x5D1892E0)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (..\..\..\mcu\common\system_hc32l13x.h)(0x5ED6414F)
+I (..\..\..\driver\inc\sysctrl.h)(0x5D130324)
+I (..\..\..\mcu\common\interrupts_hc32l13x.h)(0x5D131A91)
+I (..\source\ddl_device.h)(0x5F560CC4)
+I (..\..\..\driver\inc\uart.h)(0x5D12D7E6)
+I (..\..\..\driver\inc\adt.h)(0x5D11C7E3)
+I (..\..\..\driver\inc\bt.h)(0x5F560BA9)
+I (..\..\..\driver\inc\wdt.h)(0x5D12DF57)
+I (..\..\..\driver\inc\flash.h)(0x5D142E9C)
+I (..\source\bsp\bsp_air.h)(0x61A87A3E)
+I (..\source\bsp\bsp_motor.h)(0x61B605D6)
+I (..\source\bsp\bsp_msg.h)(0x61A86C95)
+I (..\source\bsp\bsp_pir.h)(0x61A9D795)
+I (..\source\bsp\bsp_timer.h)(0x61A86CA3)
+I (..\source\bsp\bsp_uv.h)(0x61A86CC9)
+I (..\source\bsp\bsp_water.h)(0x61A87B11)
+I (..\source\bsp\bsp_wifi.h)(0x61A86CC5)
+I (..\source\bsp\bsp_ctrl.h)(0x61B6078B)
+F (..\source\bsp\bsp_motor.c)(0x61B605D0)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../../mcu/common -I ../source -I ../../../driver/inc -I ../source/bsp -I ../source/segger_rtt-I./RTE/_template_Release-Id:/Keil_mdk/ARM/CMSIS/5.8.0/CMSIS/Core/Include-Id:/Keil_mdk/HDSC/HC32L130/1.0.1/Device/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_ -DDEBUG_PRINT-o ./output/release/bsp_motor.o -MD)
+I (..\source\bsp\bsp_motor.h)(0x61B605D6)
+I (..\source\bsp\bsp_debug.h)(0x61A88B4E)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (..\..\..\driver\inc\gpio.h)(0x5D11EFDB)
+I (..\..\..\driver\inc\ddl.h)(0x5D131F39)
+I (..\..\..\mcu\common\base_types.h)(0x5D11C241)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\assert.h)(0x603507D0)
+I (..\..\..\mcu\common\board_stkhc32l13x.h)(0x5E195D07)
+I (..\..\..\mcu\common\hc32l13x.h)(0x5D1892E0)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (..\..\..\mcu\common\system_hc32l13x.h)(0x5ED6414F)
+I (..\..\..\driver\inc\sysctrl.h)(0x5D130324)
+I (..\..\..\mcu\common\interrupts_hc32l13x.h)(0x5D131A91)
+I (..\source\ddl_device.h)(0x5F560CC4)
+I (..\..\..\driver\inc\uart.h)(0x5D12D7E6)
+I (..\..\..\driver\inc\adt.h)(0x5D11C7E3)
+I (..\..\..\driver\inc\bt.h)(0x5F560BA9)
+I (..\..\..\driver\inc\wdt.h)(0x5D12DF57)
+I (..\..\..\driver\inc\flash.h)(0x5D142E9C)
+I (..\source\bsp\bsp_air.h)(0x61A87A3E)
+I (..\source\bsp\bsp_limiter.h)(0x61B605C5)
+I (..\source\bsp\bsp_msg.h)(0x61A86C95)
+I (..\source\bsp\bsp_pir.h)(0x61A9D795)
+I (..\source\bsp\bsp_timer.h)(0x61A86CA3)
+I (..\source\bsp\bsp_uv.h)(0x61A86CC9)
+I (..\source\bsp\bsp_water.h)(0x61A87B11)
+I (..\source\bsp\bsp_wifi.h)(0x61A86CC5)
+I (..\source\bsp\bsp_ctrl.h)(0x61B6078B)
+F (..\source\bsp\bsp_msg.c)(0x5F34ED64)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../../mcu/common -I ../source -I ../../../driver/inc -I ../source/bsp -I ../source/segger_rtt-I./RTE/_template_Release-Id:/Keil_mdk/ARM/CMSIS/5.8.0/CMSIS/Core/Include-Id:/Keil_mdk/HDSC/HC32L130/1.0.1/Device/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_ -DDEBUG_PRINT-o ./output/release/bsp_msg.o -MD)
+I (..\source\bsp\bsp_msg.h)(0x61A86C95)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+F (..\source\bsp\bsp_pir.c)(0x61A9D798)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../../mcu/common -I ../source -I ../../../driver/inc -I ../source/bsp -I ../source/segger_rtt-I./RTE/_template_Release-Id:/Keil_mdk/ARM/CMSIS/5.8.0/CMSIS/Core/Include-Id:/Keil_mdk/HDSC/HC32L130/1.0.1/Device/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_ -DDEBUG_PRINT-o ./output/release/bsp_pir.o -MD)
+I (..\source\bsp\bsp_pir.h)(0x61A9D795)
+I (..\source\bsp\bsp_debug.h)(0x61A88B4E)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (..\..\..\driver\inc\gpio.h)(0x5D11EFDB)
+I (..\..\..\driver\inc\ddl.h)(0x5D131F39)
+I (..\..\..\mcu\common\base_types.h)(0x5D11C241)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\assert.h)(0x603507D0)
+I (..\..\..\mcu\common\board_stkhc32l13x.h)(0x5E195D07)
+I (..\..\..\mcu\common\hc32l13x.h)(0x5D1892E0)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (..\..\..\mcu\common\system_hc32l13x.h)(0x5ED6414F)
+I (..\..\..\driver\inc\sysctrl.h)(0x5D130324)
+I (..\..\..\mcu\common\interrupts_hc32l13x.h)(0x5D131A91)
+I (..\source\ddl_device.h)(0x5F560CC4)
+I (..\..\..\driver\inc\uart.h)(0x5D12D7E6)
+I (..\..\..\driver\inc\adt.h)(0x5D11C7E3)
+I (..\..\..\driver\inc\bt.h)(0x5F560BA9)
+I (..\..\..\driver\inc\wdt.h)(0x5D12DF57)
+I (..\..\..\driver\inc\flash.h)(0x5D142E9C)
+I (..\source\bsp\bsp_air.h)(0x61A87A3E)
+I (..\source\bsp\bsp_limiter.h)(0x61B605C5)
+I (..\source\bsp\bsp_motor.h)(0x61B605D6)
+I (..\source\bsp\bsp_msg.h)(0x61A86C95)
+I (..\source\bsp\bsp_timer.h)(0x61A86CA3)
+I (..\source\bsp\bsp_uv.h)(0x61A86CC9)
+I (..\source\bsp\bsp_water.h)(0x61A87B11)
+I (..\source\bsp\bsp_wifi.h)(0x61A86CC5)
+I (..\source\bsp\bsp_ctrl.h)(0x61B6078B)
+F (..\source\bsp\bsp_timer.c)(0x61B32336)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../../mcu/common -I ../source -I ../../../driver/inc -I ../source/bsp -I ../source/segger_rtt-I./RTE/_template_Release-Id:/Keil_mdk/ARM/CMSIS/5.8.0/CMSIS/Core/Include-Id:/Keil_mdk/HDSC/HC32L130/1.0.1/Device/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_ -DDEBUG_PRINT-o ./output/release/bsp_timer.o -MD)
+I (..\source\bsp\bsp_timer.h)(0x61A86CA3)
+I (..\source\bsp\bsp_debug.h)(0x61A88B4E)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (..\..\..\driver\inc\gpio.h)(0x5D11EFDB)
+I (..\..\..\driver\inc\ddl.h)(0x5D131F39)
+I (..\..\..\mcu\common\base_types.h)(0x5D11C241)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\assert.h)(0x603507D0)
+I (..\..\..\mcu\common\board_stkhc32l13x.h)(0x5E195D07)
+I (..\..\..\mcu\common\hc32l13x.h)(0x5D1892E0)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (..\..\..\mcu\common\system_hc32l13x.h)(0x5ED6414F)
+I (..\..\..\driver\inc\sysctrl.h)(0x5D130324)
+I (..\..\..\mcu\common\interrupts_hc32l13x.h)(0x5D131A91)
+I (..\source\ddl_device.h)(0x5F560CC4)
+I (..\..\..\driver\inc\uart.h)(0x5D12D7E6)
+I (..\..\..\driver\inc\adt.h)(0x5D11C7E3)
+I (..\..\..\driver\inc\bt.h)(0x5F560BA9)
+I (..\..\..\driver\inc\wdt.h)(0x5D12DF57)
+I (..\..\..\driver\inc\flash.h)(0x5D142E9C)
+I (..\source\bsp\bsp_air.h)(0x61A87A3E)
+I (..\source\bsp\bsp_limiter.h)(0x61B605C5)
+I (..\source\bsp\bsp_motor.h)(0x61B605D6)
+I (..\source\bsp\bsp_msg.h)(0x61A86C95)
+I (..\source\bsp\bsp_pir.h)(0x61A9D795)
+I (..\source\bsp\bsp_uv.h)(0x61A86CC9)
+I (..\source\bsp\bsp_water.h)(0x61A87B11)
+I (..\source\bsp\bsp_wifi.h)(0x61A86CC5)
+I (..\source\bsp\bsp_ctrl.h)(0x61B6078B)
+F (..\source\bsp\bsp_uv.c)(0x61A9CF83)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../../mcu/common -I ../source -I ../../../driver/inc -I ../source/bsp -I ../source/segger_rtt-I./RTE/_template_Release-Id:/Keil_mdk/ARM/CMSIS/5.8.0/CMSIS/Core/Include-Id:/Keil_mdk/HDSC/HC32L130/1.0.1/Device/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_ -DDEBUG_PRINT-o ./output/release/bsp_uv.o -MD)
+I (..\source\bsp\bsp_uv.h)(0x61A86CC9)
+I (..\source\bsp\bsp_debug.h)(0x61A88B4E)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (..\..\..\driver\inc\gpio.h)(0x5D11EFDB)
+I (..\..\..\driver\inc\ddl.h)(0x5D131F39)
+I (..\..\..\mcu\common\base_types.h)(0x5D11C241)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\assert.h)(0x603507D0)
+I (..\..\..\mcu\common\board_stkhc32l13x.h)(0x5E195D07)
+I (..\..\..\mcu\common\hc32l13x.h)(0x5D1892E0)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (..\..\..\mcu\common\system_hc32l13x.h)(0x5ED6414F)
+I (..\..\..\driver\inc\sysctrl.h)(0x5D130324)
+I (..\..\..\mcu\common\interrupts_hc32l13x.h)(0x5D131A91)
+I (..\source\ddl_device.h)(0x5F560CC4)
+I (..\..\..\driver\inc\uart.h)(0x5D12D7E6)
+I (..\..\..\driver\inc\adt.h)(0x5D11C7E3)
+I (..\..\..\driver\inc\bt.h)(0x5F560BA9)
+I (..\..\..\driver\inc\wdt.h)(0x5D12DF57)
+I (..\..\..\driver\inc\flash.h)(0x5D142E9C)
+I (..\source\bsp\bsp_air.h)(0x61A87A3E)
+I (..\source\bsp\bsp_limiter.h)(0x61B605C5)
+I (..\source\bsp\bsp_motor.h)(0x61B605D6)
+I (..\source\bsp\bsp_msg.h)(0x61A86C95)
+I (..\source\bsp\bsp_pir.h)(0x61A9D795)
+I (..\source\bsp\bsp_timer.h)(0x61A86CA3)
+I (..\source\bsp\bsp_water.h)(0x61A87B11)
+I (..\source\bsp\bsp_wifi.h)(0x61A86CC5)
+I (..\source\bsp\bsp_ctrl.h)(0x61B6078B)
+F (..\source\bsp\bsp_water.c)(0x61A86CC9)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../../mcu/common -I ../source -I ../../../driver/inc -I ../source/bsp -I ../source/segger_rtt-I./RTE/_template_Release-Id:/Keil_mdk/ARM/CMSIS/5.8.0/CMSIS/Core/Include-Id:/Keil_mdk/HDSC/HC32L130/1.0.1/Device/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_ -DDEBUG_PRINT-o ./output/release/bsp_water.o -MD)
+I (..\source\bsp\bsp_water.h)(0x61A87B11)
+I (..\source\bsp\bsp_debug.h)(0x61A88B4E)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (..\..\..\driver\inc\gpio.h)(0x5D11EFDB)
+I (..\..\..\driver\inc\ddl.h)(0x5D131F39)
+I (..\..\..\mcu\common\base_types.h)(0x5D11C241)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\assert.h)(0x603507D0)
+I (..\..\..\mcu\common\board_stkhc32l13x.h)(0x5E195D07)
+I (..\..\..\mcu\common\hc32l13x.h)(0x5D1892E0)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (..\..\..\mcu\common\system_hc32l13x.h)(0x5ED6414F)
+I (..\..\..\driver\inc\sysctrl.h)(0x5D130324)
+I (..\..\..\mcu\common\interrupts_hc32l13x.h)(0x5D131A91)
+I (..\source\ddl_device.h)(0x5F560CC4)
+I (..\..\..\driver\inc\uart.h)(0x5D12D7E6)
+I (..\..\..\driver\inc\adt.h)(0x5D11C7E3)
+I (..\..\..\driver\inc\bt.h)(0x5F560BA9)
+I (..\..\..\driver\inc\wdt.h)(0x5D12DF57)
+I (..\..\..\driver\inc\flash.h)(0x5D142E9C)
+I (..\source\bsp\bsp_air.h)(0x61A87A3E)
+I (..\source\bsp\bsp_limiter.h)(0x61B605C5)
+I (..\source\bsp\bsp_motor.h)(0x61B605D6)
+I (..\source\bsp\bsp_msg.h)(0x61A86C95)
+I (..\source\bsp\bsp_pir.h)(0x61A9D795)
+I (..\source\bsp\bsp_timer.h)(0x61A86CA3)
+I (..\source\bsp\bsp_uv.h)(0x61A86CC9)
+I (..\source\bsp\bsp_wifi.h)(0x61A86CC5)
+I (..\source\bsp\bsp_ctrl.h)(0x61B6078B)
+F (..\source\bsp\bsp_wifi.c)(0x61B321D2)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../../mcu/common -I ../source -I ../../../driver/inc -I ../source/bsp -I ../source/segger_rtt-I./RTE/_template_Release-Id:/Keil_mdk/ARM/CMSIS/5.8.0/CMSIS/Core/Include-Id:/Keil_mdk/HDSC/HC32L130/1.0.1/Device/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_ -DDEBUG_PRINT-o ./output/release/bsp_wifi.o -MD)
+I (..\source\bsp\bsp_wifi.h)(0x61A86CC5)
+I (..\source\bsp\bsp_debug.h)(0x61A88B4E)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (..\..\..\driver\inc\gpio.h)(0x5D11EFDB)
+I (..\..\..\driver\inc\ddl.h)(0x5D131F39)
+I (..\..\..\mcu\common\base_types.h)(0x5D11C241)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\assert.h)(0x603507D0)
+I (..\..\..\mcu\common\board_stkhc32l13x.h)(0x5E195D07)
+I (..\..\..\mcu\common\hc32l13x.h)(0x5D1892E0)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (..\..\..\mcu\common\system_hc32l13x.h)(0x5ED6414F)
+I (..\..\..\driver\inc\sysctrl.h)(0x5D130324)
+I (..\..\..\mcu\common\interrupts_hc32l13x.h)(0x5D131A91)
+I (..\source\ddl_device.h)(0x5F560CC4)
+I (..\..\..\driver\inc\uart.h)(0x5D12D7E6)
+I (..\..\..\driver\inc\adt.h)(0x5D11C7E3)
+I (..\..\..\driver\inc\bt.h)(0x5F560BA9)
+I (..\..\..\driver\inc\wdt.h)(0x5D12DF57)
+I (..\..\..\driver\inc\flash.h)(0x5D142E9C)
+I (..\source\bsp\bsp_air.h)(0x61A87A3E)
+I (..\source\bsp\bsp_limiter.h)(0x61B605C5)
+I (..\source\bsp\bsp_motor.h)(0x61B605D6)
+I (..\source\bsp\bsp_msg.h)(0x61A86C95)
+I (..\source\bsp\bsp_pir.h)(0x61A9D795)
+I (..\source\bsp\bsp_timer.h)(0x61A86CA3)
+I (..\source\bsp\bsp_uv.h)(0x61A86CC9)
+I (..\source\bsp\bsp_water.h)(0x61A87B11)
+I (..\source\bsp\bsp_ctrl.h)(0x61B6078B)
+F (..\source\bsp\bsp_debug.c)(0x61A889DC)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../../mcu/common -I ../source -I ../../../driver/inc -I ../source/bsp -I ../source/segger_rtt-I./RTE/_template_Release-Id:/Keil_mdk/ARM/CMSIS/5.8.0/CMSIS/Core/Include-Id:/Keil_mdk/HDSC/HC32L130/1.0.1/Device/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_ -DDEBUG_PRINT-o ./output/release/bsp_debug.o -MD)
+I (..\source\bsp\bsp_debug.h)(0x61A88B4E)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (..\..\..\driver\inc\gpio.h)(0x5D11EFDB)
+I (..\..\..\driver\inc\ddl.h)(0x5D131F39)
+I (..\..\..\mcu\common\base_types.h)(0x5D11C241)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\assert.h)(0x603507D0)
+I (..\..\..\mcu\common\board_stkhc32l13x.h)(0x5E195D07)
+I (..\..\..\mcu\common\hc32l13x.h)(0x5D1892E0)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (..\..\..\mcu\common\system_hc32l13x.h)(0x5ED6414F)
+I (..\..\..\driver\inc\sysctrl.h)(0x5D130324)
+I (..\..\..\mcu\common\interrupts_hc32l13x.h)(0x5D131A91)
+I (..\source\ddl_device.h)(0x5F560CC4)
+I (..\..\..\driver\inc\uart.h)(0x5D12D7E6)
+I (..\..\..\driver\inc\adt.h)(0x5D11C7E3)
+I (..\..\..\driver\inc\bt.h)(0x5F560BA9)
+I (..\..\..\driver\inc\wdt.h)(0x5D12DF57)
+I (..\..\..\driver\inc\flash.h)(0x5D142E9C)
+I (..\source\bsp\bsp_air.h)(0x61A87A3E)
+I (..\source\bsp\bsp_limiter.h)(0x61B605C5)
+I (..\source\bsp\bsp_motor.h)(0x61B605D6)
+I (..\source\bsp\bsp_msg.h)(0x61A86C95)
+I (..\source\bsp\bsp_pir.h)(0x61A9D795)
+I (..\source\bsp\bsp_timer.h)(0x61A86CA3)
+I (..\source\bsp\bsp_uv.h)(0x61A86CC9)
+I (..\source\bsp\bsp_water.h)(0x61A87B11)
+I (..\source\bsp\bsp_wifi.h)(0x61A86CC5)
+I (..\source\bsp\bsp_ctrl.h)(0x61B6078B)
+F (..\..\..\driver\src\ddl.c)(0x61A86E1F)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../../mcu/common -I ../source -I ../../../driver/inc -I ../source/bsp -I ../source/segger_rtt-I./RTE/_template_Release-Id:/Keil_mdk/ARM/CMSIS/5.8.0/CMSIS/Core/Include-Id:/Keil_mdk/HDSC/HC32L130/1.0.1/Device/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_ -DDEBUG_PRINT-o ./output/release/ddl.o -MD)
+I (..\..\..\driver\inc\ddl.h)(0x5D131F39)
+I (..\..\..\mcu\common\base_types.h)(0x5D11C241)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\assert.h)(0x603507D0)
+I (..\..\..\mcu\common\board_stkhc32l13x.h)(0x5E195D07)
+I (..\..\..\mcu\common\hc32l13x.h)(0x5D1892E0)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (..\..\..\mcu\common\system_hc32l13x.h)(0x5ED6414F)
+I (..\..\..\driver\inc\sysctrl.h)(0x5D130324)
+I (..\..\..\mcu\common\interrupts_hc32l13x.h)(0x5D131A91)
+I (..\source\ddl_device.h)(0x5F560CC4)
+F (..\..\..\driver\src\sysctrl.c)(0x5ECCF921)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../../mcu/common -I ../source -I ../../../driver/inc -I ../source/bsp -I ../source/segger_rtt-I./RTE/_template_Release-Id:/Keil_mdk/ARM/CMSIS/5.8.0/CMSIS/Core/Include-Id:/Keil_mdk/HDSC/HC32L130/1.0.1/Device/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_ -DDEBUG_PRINT-o ./output/release/sysctrl.o -MD)
+I (..\..\..\driver\inc\sysctrl.h)(0x5D130324)
+I (..\..\..\driver\inc\ddl.h)(0x5D131F39)
+I (..\..\..\mcu\common\base_types.h)(0x5D11C241)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\assert.h)(0x603507D0)
+I (..\..\..\mcu\common\board_stkhc32l13x.h)(0x5E195D07)
+I (..\..\..\mcu\common\hc32l13x.h)(0x5D1892E0)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (..\..\..\mcu\common\system_hc32l13x.h)(0x5ED6414F)
+I (..\..\..\mcu\common\interrupts_hc32l13x.h)(0x5D131A91)
+I (..\source\ddl_device.h)(0x5F560CC4)
+F (..\..\..\driver\src\adt.c)(0x5D108B71)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../../mcu/common -I ../source -I ../../../driver/inc -I ../source/bsp -I ../source/segger_rtt-I./RTE/_template_Release-Id:/Keil_mdk/ARM/CMSIS/5.8.0/CMSIS/Core/Include-Id:/Keil_mdk/HDSC/HC32L130/1.0.1/Device/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_ -DDEBUG_PRINT-o ./output/release/adt.o -MD)
+I (..\..\..\driver\inc\adt.h)(0x5D11C7E3)
+I (..\..\..\driver\inc\ddl.h)(0x5D131F39)
+I (..\..\..\mcu\common\base_types.h)(0x5D11C241)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\assert.h)(0x603507D0)
+I (..\..\..\mcu\common\board_stkhc32l13x.h)(0x5E195D07)
+I (..\..\..\mcu\common\hc32l13x.h)(0x5D1892E0)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (..\..\..\mcu\common\system_hc32l13x.h)(0x5ED6414F)
+I (..\..\..\driver\inc\sysctrl.h)(0x5D130324)
+I (..\..\..\mcu\common\interrupts_hc32l13x.h)(0x5D131A91)
+I (..\source\ddl_device.h)(0x5F560CC4)
+F (..\..\..\driver\src\bt.c)(0x5F560BA9)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../../mcu/common -I ../source -I ../../../driver/inc -I ../source/bsp -I ../source/segger_rtt-I./RTE/_template_Release-Id:/Keil_mdk/ARM/CMSIS/5.8.0/CMSIS/Core/Include-Id:/Keil_mdk/HDSC/HC32L130/1.0.1/Device/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_ -DDEBUG_PRINT-o ./output/release/bt.o -MD)
+I (..\..\..\driver\inc\bt.h)(0x5F560BA9)
+I (..\..\..\driver\inc\ddl.h)(0x5D131F39)
+I (..\..\..\mcu\common\base_types.h)(0x5D11C241)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\assert.h)(0x603507D0)
+I (..\..\..\mcu\common\board_stkhc32l13x.h)(0x5E195D07)
+I (..\..\..\mcu\common\hc32l13x.h)(0x5D1892E0)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (..\..\..\mcu\common\system_hc32l13x.h)(0x5ED6414F)
+I (..\..\..\driver\inc\sysctrl.h)(0x5D130324)
+I (..\..\..\mcu\common\interrupts_hc32l13x.h)(0x5D131A91)
+I (..\source\ddl_device.h)(0x5F560CC4)
+F (..\..\..\driver\src\gpio.c)(0x5D11F199)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../../mcu/common -I ../source -I ../../../driver/inc -I ../source/bsp -I ../source/segger_rtt-I./RTE/_template_Release-Id:/Keil_mdk/ARM/CMSIS/5.8.0/CMSIS/Core/Include-Id:/Keil_mdk/HDSC/HC32L130/1.0.1/Device/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_ -DDEBUG_PRINT-o ./output/release/gpio.o -MD)
+I (..\..\..\driver\inc\gpio.h)(0x5D11EFDB)
+I (..\..\..\driver\inc\ddl.h)(0x5D131F39)
+I (..\..\..\mcu\common\base_types.h)(0x5D11C241)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\assert.h)(0x603507D0)
+I (..\..\..\mcu\common\board_stkhc32l13x.h)(0x5E195D07)
+I (..\..\..\mcu\common\hc32l13x.h)(0x5D1892E0)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (..\..\..\mcu\common\system_hc32l13x.h)(0x5ED6414F)
+I (..\..\..\driver\inc\sysctrl.h)(0x5D130324)
+I (..\..\..\mcu\common\interrupts_hc32l13x.h)(0x5D131A91)
+I (..\source\ddl_device.h)(0x5F560CC4)
+F (..\..\..\driver\src\uart.c)(0x5ECCF6D3)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../../mcu/common -I ../source -I ../../../driver/inc -I ../source/bsp -I ../source/segger_rtt-I./RTE/_template_Release-Id:/Keil_mdk/ARM/CMSIS/5.8.0/CMSIS/Core/Include-Id:/Keil_mdk/HDSC/HC32L130/1.0.1/Device/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_ -DDEBUG_PRINT-o ./output/release/uart.o -MD)
+I (..\..\..\driver\inc\uart.h)(0x5D12D7E6)
+I (..\..\..\driver\inc\ddl.h)(0x5D131F39)
+I (..\..\..\mcu\common\base_types.h)(0x5D11C241)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\assert.h)(0x603507D0)
+I (..\..\..\mcu\common\board_stkhc32l13x.h)(0x5E195D07)
+I (..\..\..\mcu\common\hc32l13x.h)(0x5D1892E0)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (..\..\..\mcu\common\system_hc32l13x.h)(0x5ED6414F)
+I (..\..\..\driver\inc\sysctrl.h)(0x5D130324)
+I (..\..\..\mcu\common\interrupts_hc32l13x.h)(0x5D131A91)
+I (..\source\ddl_device.h)(0x5F560CC4)
+F (..\..\..\driver\src\wdt.c)(0x5D12DF7F)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../../mcu/common -I ../source -I ../../../driver/inc -I ../source/bsp -I ../source/segger_rtt-I./RTE/_template_Release-Id:/Keil_mdk/ARM/CMSIS/5.8.0/CMSIS/Core/Include-Id:/Keil_mdk/HDSC/HC32L130/1.0.1/Device/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_ -DDEBUG_PRINT-o ./output/release/wdt.o -MD)
+I (..\..\..\driver\inc\wdt.h)(0x5D12DF57)
+I (..\..\..\driver\inc\ddl.h)(0x5D131F39)
+I (..\..\..\mcu\common\base_types.h)(0x5D11C241)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\assert.h)(0x603507D0)
+I (..\..\..\mcu\common\board_stkhc32l13x.h)(0x5E195D07)
+I (..\..\..\mcu\common\hc32l13x.h)(0x5D1892E0)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (..\..\..\mcu\common\system_hc32l13x.h)(0x5ED6414F)
+I (..\..\..\driver\inc\sysctrl.h)(0x5D130324)
+I (..\..\..\mcu\common\interrupts_hc32l13x.h)(0x5D131A91)
+I (..\source\ddl_device.h)(0x5F560CC4)
+F (..\..\..\driver\src\flash.c)(0x5D132CED)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../../mcu/common -I ../source -I ../../../driver/inc -I ../source/bsp -I ../source/segger_rtt-I./RTE/_template_Release-Id:/Keil_mdk/ARM/CMSIS/5.8.0/CMSIS/Core/Include-Id:/Keil_mdk/HDSC/HC32L130/1.0.1/Device/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_ -DDEBUG_PRINT-o ./output/release/flash.o -MD)
+I (..\..\..\driver\inc\flash.h)(0x5D142E9C)
+I (..\..\..\driver\inc\ddl.h)(0x5D131F39)
+I (..\..\..\mcu\common\base_types.h)(0x5D11C241)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\assert.h)(0x603507D0)
+I (..\..\..\mcu\common\board_stkhc32l13x.h)(0x5E195D07)
+I (..\..\..\mcu\common\hc32l13x.h)(0x5D1892E0)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (d:\Keil_mdk\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (..\..\..\mcu\common\system_hc32l13x.h)(0x5ED6414F)
+I (..\..\..\driver\inc\sysctrl.h)(0x5D130324)
+I (..\..\..\mcu\common\interrupts_hc32l13x.h)(0x5D131A91)
+I (..\source\ddl_device.h)(0x5F560CC4)
+F (..\readme.txt)(0x5D134104)()
+F (..\source\segger_rtt\SEGGER_RTT.c)(0x5AB38D03)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../../mcu/common -I ../source -I ../../../driver/inc -I ../source/bsp -I ../source/segger_rtt-I./RTE/_template_Release-Id:/Keil_mdk/ARM/CMSIS/5.8.0/CMSIS/Core/Include-Id:/Keil_mdk/HDSC/HC32L130/1.0.1/Device/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_ -DDEBUG_PRINT-o ./output/release/segger_rtt.o -MD)
+I (..\source\segger_rtt\SEGGER_RTT.h)(0x5AB38D03)
+I (..\source\segger_rtt\SEGGER_RTT_Conf.h)(0x5F476956)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\string.h)(0x603507D0)
+F (..\source\segger_rtt\SEGGER_RTT_printf.c)(0x5AB38D03)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../../mcu/common -I ../source -I ../../../driver/inc -I ../source/bsp -I ../source/segger_rtt-I./RTE/_template_Release-Id:/Keil_mdk/ARM/CMSIS/5.8.0/CMSIS/Core/Include-Id:/Keil_mdk/HDSC/HC32L130/1.0.1/Device/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_ -DDEBUG_PRINT-o ./output/release/segger_rtt_printf.o -MD)
+I (..\source\segger_rtt\SEGGER_RTT.h)(0x5AB38D03)
+I (..\source\segger_rtt\SEGGER_RTT_Conf.h)(0x5F476956)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (d:\Keil_mdk\ARM\ARMCLANG\include\stdarg.h)(0x603507D4)
